@@ -2,7 +2,7 @@
 error_reporting(E_ERROR | E_PARSE);
 date_default_timezone_set("Asia/Manila");
 
-$conn = new mysqli("localhost", "root", "", "im");
+$conn = new mysqli("sql107.infinityfree.com", "if0_42007153", "j10a9UuCC1a2", "if0_42007153_im");
 
 if ($conn->connect_error) {
     die("
