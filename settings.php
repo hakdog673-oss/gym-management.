@@ -2,7 +2,7 @@
 error_reporting(E_ERROR | E_PARSE);
 date_default_timezone_set("Asia/Manila");
 
-$conn = new mysqli("localhost", "root", "", "im");
+$conn = new mysqli("sql107.infinityfree.com", "if0_42007153", "j10a9UuCC1a2", "if0_42007153_im");
 
 if ($conn->connect_error) {
     die("<div style='color:white; background:#ef4444; padding:30px; text-align:center; font-family:sans-serif;'>🚨 MySQL is OFF! Paki-start ang Apache at MySQL sa XAMPP Control Panel.</div>");
